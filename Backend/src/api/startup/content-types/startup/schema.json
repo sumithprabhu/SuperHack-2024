@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "startups",
+  "info": {
+    "singularName": "startup",
+    "pluralName": "startups",
+    "displayName": "startup",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "overview": {
+      "type": "text"
+    },
+    "address": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "startupName": {
+      "type": "string"
+    },
+    "previousFunding": {
+      "type": "biginteger"
+    },
+    "currentFunding": {
+      "type": "biginteger"
+    },
+    "noInvestors": {
+      "type": "biginteger"
+    },
+    "minInvestment": {
+      "type": "biginteger",
+      "default": "0",
+      "min": "0"
+    },
+    "displayImg": {
+      "type": "string"
+    },
+    "pricePerShare": {
+      "type": "integer"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "investorDetail": {
+      "type": "json"
+    },
+    "investmentReceived": {
+      "type": "biginteger"
+    }
+  }
+}
