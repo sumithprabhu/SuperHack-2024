@@ -9,8 +9,8 @@ Raisecoin is a revolutionary project aimed at addressing the global challenge of
 - **Global Currency**: Leveraging cryptocurrency for secure and transparent transactions.
 - **Base Blockchain**: Chosen for its future scalability and ability to handle numerous transactions efficiently with low gas fees.
 
-## Contract Address[Deployed on Scroll Sepolia network]
-0x04b4AA5A55fD666c588fe51ccc000e14F6101B70
+## Contract Address[Deployed on Base Testnet network]
+0x85c8629306c1976C1F3635288a6fE9BBFA4453ED
 
 ## Live Website Link
 [Raisecoin](https://raise-coin.vercel.app/)
